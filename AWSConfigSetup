@@ -1,0 +1,19 @@
+[default]
+region = ap-southeast-2
+output = json
+max_concurrent_requests = 10
+
+multipart_threshold = 8MB
+multipart_chunksize = 8MB
+
+[profile sandpit-poweruser]
+sso_session = sandpit-poweruser
+sso_account_id = 689323978863
+sso_role_name = sso-poweruser
+region = ap-southeast-2
+output = json
+
+[sso-session sandpit-poweruser]
+sso_start_url = https://d-97676e63b0.awsapps.com/start#
+sso_region = ap-southeast-2
+sso_registration_scopes = sso:account:access
