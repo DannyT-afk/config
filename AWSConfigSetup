@@ -17,3 +17,5 @@ output = json
 sso_start_url = https://d-97676e63b0.awsapps.com/start#
 sso_region = ap-southeast-2
 sso_registration_scopes = sso:account:access
+# This is an addition for GitHub for testing purposes
+#
